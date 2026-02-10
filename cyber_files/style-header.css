@@ -1,0 +1,228 @@
+/* ========================================
+   ============= עיצוב header ============
+   ======================================== */
+
+
+/* עמוד ראשי: page-course-view-shiftsections -->
+
+עמוד מפגשים: page-mod-attendance-manage -->
+
+<!-- עמוד מצב למידה: page-local-assigndash-index -->
+
+<!-- עמוד מטלות: page-local-assigndash-assignments */
+
+/****** שם קורס, שם קבוצה, בחירת קבוצה ******/
+
+/* גובה header */
+.main-inner .shiftsections-header{
+    height: 18.4375rem !important;
+}
+
+#page-header .compactlogo{
+        margin-top: -39px !important
+}
+
+/***** איפוס מיקומים האוביקטים ב-header *****/
+.main-inner .shiftsections-header{
+    padding: 0 0;
+    padding-top: 0;
+}
+
+#page-header .d-flex{
+    align-items: self-start !important;
+}
+
+
+#page-header .page-context-header h1 {
+  padding: 0;
+  margin:0;
+}
+
+
+#page-header .custom-single-select ul{
+    border: 1px solid #BFC5D9 !important;
+    padding: 0 !important;
+}
+
+
+
+.main-inner .shiftsections-header .customfields-header{
+    line-height: 0;
+}
+
+/*----- איפוס מיקומים האוביקטים ב-header -----*/
+
+/* מיקומי האובייקטים */
+.main-inner .shiftsections-header{
+    padding: 2.5rem 6.25rem 2.81rem 6.25rem !important;
+}
+
+#page-header .page-context-header h1{
+    margin-bottom: 1.5rem;
+}
+
+/* שם הקבוצה  */
+#page-header .customfields-header{
+    margin-bottom: 1rem !important; 
+    
+}
+/* שם המנחה */
+#page-header .groupteacher{
+    margin-bottom: 1.88rem  !important;
+}
+
+
+#page-header .flex-column{
+    height: 100%;
+}
+
+#page-header .w-100 .mr-auto .mt-auto{
+    margin-top: 0 !important;
+}
+
+/* (שם הקורס) עיצוב הכותרת הראשית  */
+#page-header .page-context-header h1,
+.main-inner .shiftsections-header h1>a {
+  font-size: 3rem !important;
+  font-weight: 600 !important;
+
+}
+
+.page-header-headings h1.h2,
+.page-header-headings h1.h2 a {
+    white-space: nowrap !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+   
+}
+
+#page-header .customfields-header,/* שם קבוצה */
+#page-header .groupteacher {
+  /* הנחיית הקבוצה */
+  font-weight: 400;
+}
+
+/***** עיצוב דרופדאון - בחירת קבוצות *****/
+
+/* יישור אזור תצוגת בחירת הקבוצות */
+#page-mod-attendance-manage .group-tags-wrapper,
+#page-local-assigndash-assignments .group-tags-wrapper,
+#page-local-assigndash-index .group-tags-wrapper {
+  padding: 0 6.3rem;
+}
+
+
+#page-header .shiftsections-header details.custom-single-select,
+#page-header .shiftsections-header details.custom-single-select {
+  box-shadow: 0;
+  font-weight: 400;
+  
+}
+
+/* הורדת ההדגשה מבחירת קבוצות */
+#page-header details.custom-single-select input[type="radio"]:after,
+#page-header
+  details.custom-single-select
+  input[type="radio"]:after {
+  font-weight: 400;
+}
+
+
+#page-header .custom-single-select li.selectGroup:hover,
+#page-header .custom-single-select li button:hover
+{
+    background-color: #F1F3FE !important;
+}
+
+#page-header .custom-single-select li:hover{
+     background-color: #F1F3FE !important;
+     width: 100% !important;
+}
+
+ li.selectGroup label{
+    padding-right: .5rem !important;
+}
+
+
+
+/* עיצוב לכפתורים והקבוצות*/
+#page-header .custom-single-select li:has(#select_group_button) #select_group_button,
+#page-header .custom-single-select .course-header-btn-text,
+#page-header .custom-single-select li
+{
+    padding: 0 !important;
+    padding-right: .5rem !important;
+    margin: 0 !important;
+    margin-right: 0 !important; /* דריסה של פקודה קיימת */
+    display: block !important;
+    text-align: right !important;
+    font-weight: 400 !important;
+    border: none !important;
+    outline: none !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+  
+    display: flex !important;
+ 
+    
+    
+}
+
+#page-header .custom-single-select li:has(#select_group_button) #select_group_button,
+#page-header .custom-single-select .course-header-btn-text{
+    color: #000047 !important;
+    font-size: 17px !important;
+    text-align: right !important;
+    justify-content: right !important;
+   
+    
+}
+
+
+#page-header .custom-single-select li:has(#select_group_button)
+{
+
+       border-top: 1px solid #BFC5D9 !important;
+}
+
+
+
+#page-header .custom-single-select li.notSelectable{
+    color: #0076c6 !important;
+    font-size: 16px !important;
+    padding-right: 1.1rem !important;
+}
+
+/*----- עיצוב דרופדאון - בחירת קבוצות -----*/
+
+
+
+/*----- שם קורס, שם קבוצה, בחירת קבוצה -----*/
+
+/****** כפתורי מעקב: התקדמות, מפגשים, מטלות ******/
+
+#page-header .mt-auto {
+    margin-top: 120px !important;
+}
+
+.main-inner #page-header .shiftsections-header .course-header-btn-icon img.icon,
+.main-inner #page-header .shiftsections-header .course-header-btn-icon {
+  background-color: #0076c6;
+}
+
+ .main-inner #page-header .shiftsections-header .course-header-btn-text {
+  color: #0076c6;
+  font-weight: 700;
+}
+
+.main-inner #page-header .shiftsections-header .course-header-btn {
+  outline: 1.5px solid #0076c6;
+}
+
+.main-inner #page-header .shiftsections-header .course-header-btn:hover {
+  background-color: #e8eaf5;
+}
+
+/*----- כפתורי מעקב: התקדמות, מפגשים, מטלות -----*/
+
+/*--------------------- header ---------------------*/
